@@ -37,5 +37,3 @@ python src/analyze.py                                     # tạo lại bảng v
 ```
 
 Hướng dẫn chi tiết (chạy trong VS Code, giải thích các nhánh thực nghiệm, khác biệt so với bài báo) xem trong `README_VI.md`.
-
-## Cấu trúc
