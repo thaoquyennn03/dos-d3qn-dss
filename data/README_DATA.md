@@ -1,7 +1,6 @@
 # Dataset v2 cho hướng DOS (100% mô phỏng)
 
-Dataset này được sinh bằng `src/data_gen.py` với seed 20261108, dựa trên dataset mô phỏng gốc của bạn.
-**Đây không phải dữ liệu Meituan.**
+Dataset này được sinh bằng `src/data_gen.py` với seed 20261108, dựa trên dataset mô phỏng từ bài báo gốc.
 
 ## Giữ nguyên từ dataset gốc
 - 30 nhà hàng: vị trí, độ phổ biến (tỉ lệ số đơn trong `orders.csv` gốc), thời gian chuẩn bị (mean, sd, chặn 5–40 phút).
