@@ -1,11 +1,4 @@
-@'
 # DOS-aware D3QN – Hệ hỗ trợ quyết định cho shipper giao đồ ăn
-
-Mã nguồn, dữ liệu mô phỏng và kết quả thực nghiệm của tiểu luận môn **Hệ hỗ trợ quyết định (CS2208) – UIT**.
-
-- Học viên: Trần Thảo Quyên – MSHV 26848185
-- Giảng viên: TS. Tôn Thất Hòa An
-
 ## Bài toán
 
 Đồ án dựa trên bài báo của Zhou, Fotouhi & Miller-Hooks (2025), *Decision Support Systems* 190, 114388. Bài báo dùng D3QN để giúp shipper quyết định nhận/từ chối đơn và di chuyển khi rảnh, nhằm tối đa thu nhập.
