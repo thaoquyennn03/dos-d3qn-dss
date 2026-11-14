@@ -82,8 +82,7 @@ dos_d3qn/
 6 điểm tính DOS gồm: vị trí hiện tại, điểm giao (khách) và 4 ô lân cận cách 1,5 km.
 DOS dùng số đơn trong 30 phút gần nhất và số shipper rảnh trong bán kính 2,5 km (Manhattan).
 
-## 4. Khác biệt so với paper (cần nêu trong báo cáo)
-
+## 4. Khác biệt so với paper
 - Đơn vị km và CNY theo dữ liệu gốc của bạn; paper dùng dặm và USD.
   Kết quả chỉ dùng để so sánh tương đối giữa các nhánh.
 - Mạng dueling dùng thân chung 2 lớp × 70 neuron rồi tách đầu V và A (mỗi đầu thêm 1 lớp × 70).
@@ -101,8 +100,3 @@ Xem `results/KET_QUA.md`. Tóm tắt:
 - Khi dư đơn, luật ngưỡng thắng D3QN khoảng 11–13%.
 - DOS chưa cải thiện D3QN có ý nghĩa thống kê. Với 1.500 ca huấn luyện, DOS hơn D3QN gốc +3,9% (không có ý nghĩa), trong khi nhánh nhiễu cũng hơn +3,0%.
 - Để phát hiện chắc chắn một hiệu ứng cỡ 4% cần khoảng 5 seed × 50 ngày test.
-
-## 6. Dữ liệu Meituan
-
-Bộ dữ liệu này là mô phỏng. Nếu muốn dùng dữ liệu Meituan, xem README gốc của bạn
-(giấy phép CC BY-NC 4.0, không phân phối lại).
