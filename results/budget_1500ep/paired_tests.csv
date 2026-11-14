@@ -1,0 +1,7 @@
+level,pattern,n_comp,penalty,compare,diff,diff_ci,pct,pct_ci,p,n_days,p_holm,significant
+excess,hotspot_random,30,0.0,A2_d3qn_dos - A0_d3qn,8.2667,6.7586,3.9038,3.1916,0.027,20,0.1348,False
+excess,hotspot_random,30,0.0,A4_d3qn_noise - A0_d3qn,6.3882,5.6335,3.0167,2.6603,0.0386,20,0.1348,False
+excess,hotspot_random,30,0.0,A2_d3qn_dos - A4_d3qn_noise,1.8784,6.2939,0.8611,2.8851,0.5654,20,1.0,False
+excess,hotspot_random,30,0.0,A0_d3qn - B1_threshold,-25.8021,11.4933,-10.8611,4.838,0.0003,20,0.0018,True
+excess,hotspot_random,30,0.0,A2_d3qn_dos - B1_threshold,-17.5354,14.725,-7.3813,6.1983,0.0307,20,0.1348,False
+excess,hotspot_random,30,0.0,B2_threshold_dos - B1_threshold,3.8991,11.8699,1.6413,4.9965,0.5274,20,1.0,False

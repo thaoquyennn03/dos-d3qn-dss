@@ -1,0 +1,58 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "1. Tạo dataset v2",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/data_gen.py",
+      "args": ["--train-days", "40", "--test-days", "20"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "2. Smoke test (1 phút)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/run_experiments.py",
+      "args": ["--plan", "smoke"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "3. Train 1 nhánh (D3QN + DOS, dư đơn, điểm nóng ngẫu nhiên)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/train.py",
+      "args": ["--level", "excess", "--pattern", "hotspot_random", "--feature", "dos", "--seed", "0", "--episodes", "600"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "4. Chạy kế hoạch core",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/run_experiments.py",
+      "args": ["--plan", "core", "--episodes", "600"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "5. Chạy kế hoạch full (5 nhánh x 5 seed x 9 kịch bản)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/run_experiments.py",
+      "args": ["--plan", "full", "--episodes", "600"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "6. Phân tích kết quả",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/analyze.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}

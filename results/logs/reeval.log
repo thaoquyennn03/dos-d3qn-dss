@@ -1,0 +1,112 @@
+eval few peak_fixed: 180 rows
+eval few stationary: 180 rows
+eval few hotspot_random: 180 rows
+eval sufficient stationary: 180 rows
+eval sufficient peak_fixed: 180 rows
+eval sufficient hotspot_random: 180 rows
+eval excess stationary: 360 rows
+eval excess peak_fixed: 180 rows
+eval excess hotspot_random: 360 rows
+     level        pattern  n_comp  penalty           policy    net  net_ci  reject_pct  idle_min  seeds  days
+    excess hotspot_random      30      0.0          A0_d3qn 206.43    6.13       73.80     65.73      3    20
+    excess hotspot_random      30      0.0     A1_d3qn_dhat 193.60    4.54       68.90     60.38      3    20
+    excess hotspot_random      30      0.0      A2_d3qn_dos 196.24    6.19       67.66     63.07      3    20
+    excess hotspot_random      30      0.0   A3_d3qn_oracle 199.98    7.59       72.68     66.02      3    20
+    excess hotspot_random      30      0.0    A4_d3qn_noise 181.38    5.96       66.04     62.85      3    20
+    excess hotspot_random      30      0.0      B0_centroid  91.80    8.77        0.00     58.20      1    20
+    excess hotspot_random      30      0.0     B1_threshold 237.56   11.99       87.55    134.60      1    20
+    excess hotspot_random      30      0.0 B2_threshold_dos 241.46    8.89       85.42    123.00      1    20
+    excess     peak_fixed      30      0.0          A0_d3qn 213.77    6.27       79.61     73.15      3    20
+    excess     peak_fixed      30      0.0      A2_d3qn_dos 217.28    6.00       74.37     66.75      3    20
+    excess     peak_fixed      30      0.0      B0_centroid  98.40    7.63        0.00     57.50      1    20
+    excess     peak_fixed      30      0.0     B1_threshold 239.84   14.97       86.17    130.40      1    20
+    excess     peak_fixed      30      0.0 B2_threshold_dos 243.96   10.97       85.49    121.20      1    20
+    excess     stationary      30      0.0          A0_d3qn 205.71    4.60       73.30     67.78      3    20
+    excess     stationary      30      0.0     A1_d3qn_dhat 192.27    7.36       71.65     65.13      3    20
+    excess     stationary      30      0.0      A2_d3qn_dos 198.37    5.38       71.15     66.13      3    20
+    excess     stationary      30      0.0   A3_d3qn_oracle 199.04    5.85       76.05     66.82      3    20
+    excess     stationary      30      0.0    A4_d3qn_noise 186.44    7.39       69.36     66.63      3    20
+    excess     stationary      30      0.0      B0_centroid  87.90    8.62        0.00     56.45      1    20
+    excess     stationary      30      0.0     B1_threshold 237.40    9.08       86.90    126.10      1    20
+    excess     stationary      30      0.0 B2_threshold_dos 251.95   10.02       85.56    121.75      1    20
+       few hotspot_random      30      0.0          A0_d3qn  27.74    4.73        9.53    342.05      3    20
+       few hotspot_random      30      0.0      A2_d3qn_dos  21.01    4.41        8.47    330.03      3    20
+       few hotspot_random      30      0.0      B0_centroid -12.05   12.13        0.00    349.55      1    20
+       few hotspot_random      30      0.0     B1_threshold -16.44   13.31       97.22    476.65      1    20
+       few hotspot_random      30      0.0 B2_threshold_dos -19.00   11.82        1.62    356.95      1    20
+       few     peak_fixed      30      0.0          A0_d3qn  28.06    3.44        4.11    341.62      3    20
+       few     peak_fixed      30      0.0      A2_d3qn_dos  23.09    4.11        4.13    328.57      3    20
+       few     peak_fixed      30      0.0      B0_centroid -10.09    9.86        0.00    342.20      1    20
+       few     peak_fixed      30      0.0     B1_threshold -40.36   11.43        1.55    363.80      1    20
+       few     peak_fixed      30      0.0 B2_threshold_dos -28.49   11.84       10.64    358.40      1    20
+       few     stationary      30      0.0          A0_d3qn  32.41    3.88        6.44    326.05      3    20
+       few     stationary      30      0.0      A2_d3qn_dos  27.17    3.39        3.21    328.18      3    20
+       few     stationary      30      0.0      B0_centroid -14.48   11.64        0.00    338.45      1    20
+       few     stationary      30      0.0     B1_threshold  -5.36    8.41        0.00    337.50      1    20
+       few     stationary      30      0.0 B2_threshold_dos -11.48    8.96       96.05    475.35      1    20
+sufficient hotspot_random      30      0.0          A0_d3qn  74.71    5.00       42.44    195.47      3    20
+sufficient hotspot_random      30      0.0      A2_d3qn_dos  68.53    3.80       45.73    195.90      3    20
+sufficient hotspot_random      30      0.0      B0_centroid  28.29    7.99        0.00    170.75      1    20
+sufficient hotspot_random      30      0.0     B1_threshold  39.71    8.35       40.99    197.70      1    20
+sufficient hotspot_random      30      0.0 B2_threshold_dos  32.09   13.76       66.97    260.15      1    20
+sufficient     peak_fixed      30      0.0          A0_d3qn  80.19    5.12       44.43    194.88      3    20
+sufficient     peak_fixed      30      0.0      A2_d3qn_dos  72.97    4.42       48.68    198.78      3    20
+sufficient     peak_fixed      30      0.0      B0_centroid  16.94    7.20        0.00    191.75      1    20
+sufficient     peak_fixed      30      0.0     B1_threshold  32.74    8.99       55.26    239.10      1    20
+sufficient     peak_fixed      30      0.0 B2_threshold_dos  31.65    8.92       51.42    244.90      1    20
+sufficient     stationary      30      0.0          A0_d3qn  74.37    4.13       51.95    192.82      3    20
+sufficient     stationary      30      0.0      A2_d3qn_dos  69.03    3.93       39.13    192.53      3    20
+sufficient     stationary      30      0.0      B0_centroid  26.19   10.52        0.00    181.30      1    20
+sufficient     stationary      30      0.0     B1_threshold  40.52    7.63       50.50    219.45      1    20
+sufficient     stationary      30      0.0 B2_threshold_dos  39.79    9.09       45.71    213.20      1    20
+     level        pattern  n_comp  penalty                         compare    diff  diff_ci      pct  pct_ci  p_holm  significant
+    excess hotspot_random      30      0.0          A1_d3qn_dhat - A0_d3qn -12.830    6.574   -6.215   3.185   0.037         True
+    excess hotspot_random      30      0.0           A2_d3qn_dos - A0_d3qn -10.191    7.421   -4.937   3.595   0.318        False
+    excess hotspot_random      30      0.0        A3_d3qn_oracle - A0_d3qn  -6.454    6.666   -3.126   3.229   1.000        False
+    excess hotspot_random      30      0.0         A4_d3qn_noise - A0_d3qn -25.058    7.463  -12.139   3.615   0.000         True
+    excess hotspot_random      30      0.0    A1_d3qn_dhat - A4_d3qn_noise  12.228    7.257    6.742   4.001   0.109        False
+    excess hotspot_random      30      0.0     A2_d3qn_dos - A4_d3qn_noise  14.867    8.160    8.197   4.499   0.061        False
+    excess hotspot_random      30      0.0  A3_d3qn_oracle - A4_d3qn_noise  18.604    9.845   10.257   5.428   0.047         True
+    excess hotspot_random      30      0.0      A2_d3qn_dos - A1_d3qn_dhat   2.639    5.492    1.363   2.837   1.000        False
+    excess hotspot_random      30      0.0          A0_d3qn - B1_threshold -31.130   13.071  -13.104   5.502   0.006         True
+    excess hotspot_random      30      0.0      A2_d3qn_dos - B1_threshold -41.321   15.261  -17.394   6.424   0.001         True
+    excess hotspot_random      30      0.0 B2_threshold_dos - B1_threshold   3.899   11.870    1.641   4.996   1.000        False
+    excess     peak_fixed      30      0.0           A2_d3qn_dos - A0_d3qn   3.510    7.328    1.642   3.428   1.000        False
+    excess     peak_fixed      30      0.0          A0_d3qn - B1_threshold -26.068   17.806  -10.869   7.424   0.245        False
+    excess     peak_fixed      30      0.0      A2_d3qn_dos - B1_threshold -22.559   17.803   -9.406   7.423   0.450        False
+    excess     peak_fixed      30      0.0 B2_threshold_dos - B1_threshold   4.116   11.844    1.716   4.938   1.000        False
+    excess     stationary      30      0.0          A1_d3qn_dhat - A0_d3qn -13.442    8.003   -6.534   3.890   0.109        False
+    excess     stationary      30      0.0           A2_d3qn_dos - A0_d3qn  -7.346    6.120   -3.571   2.975   0.562        False
+    excess     stationary      30      0.0        A3_d3qn_oracle - A0_d3qn  -6.677    6.749   -3.246   3.281   1.000        False
+    excess     stationary      30      0.0         A4_d3qn_noise - A0_d3qn -19.268    7.619   -9.367   3.704   0.003         True
+    excess     stationary      30      0.0    A1_d3qn_dhat - A4_d3qn_noise   5.826    7.628    3.125   4.091   1.000        False
+    excess     stationary      30      0.0     A2_d3qn_dos - A4_d3qn_noise  11.922    7.294    6.395   3.912   0.126        False
+    excess     stationary      30      0.0  A3_d3qn_oracle - A4_d3qn_noise  12.591    8.154    6.753   4.373   0.180        False
+    excess     stationary      30      0.0      A2_d3qn_dos - A1_d3qn_dhat   6.096    8.377    3.171   4.357   1.000        False
+    excess     stationary      30      0.0          A0_d3qn - B1_threshold -31.687   10.404  -13.347   4.383   0.000         True
+    excess     stationary      30      0.0      A2_d3qn_dos - B1_threshold -39.032   12.498  -16.442   5.265   0.000         True
+    excess     stationary      30      0.0 B2_threshold_dos - B1_threshold  14.548   10.220    6.128   4.305   0.268        False
+       few hotspot_random      30      0.0           A2_d3qn_dos - A0_d3qn  -6.722    5.938  -24.235  21.410   0.659        False
+       few hotspot_random      30      0.0          A0_d3qn - B1_threshold  44.172   14.714  268.744  89.518   0.000         True
+       few hotspot_random      30      0.0      A2_d3qn_dos - B1_threshold  37.451   14.355  227.849  87.332   0.002         True
+       few hotspot_random      30      0.0 B2_threshold_dos - B1_threshold  -2.559   19.261  -15.567 117.180   1.000        False
+       few     peak_fixed      30      0.0           A2_d3qn_dos - A0_d3qn  -4.975    5.070  -17.726  18.065   1.000        False
+       few     peak_fixed      30      0.0          A0_d3qn - B1_threshold  68.424   10.556  169.537  26.156   0.000         True
+       few     peak_fixed      30      0.0      A2_d3qn_dos - B1_threshold  63.449   13.336  157.211  33.042   0.000         True
+       few     peak_fixed      30      0.0 B2_threshold_dos - B1_threshold  11.871   15.684   29.412  38.861   1.000        False
+       few     stationary      30      0.0           A2_d3qn_dos - A0_d3qn  -5.241    3.590  -16.171  11.078   0.245        False
+       few     stationary      30      0.0          A0_d3qn - B1_threshold  37.769    9.765  704.702 182.194   0.000         True
+       few     stationary      30      0.0      A2_d3qn_dos - B1_threshold  32.528    9.271  606.918 172.972   0.000         True
+       few     stationary      30      0.0 B2_threshold_dos - B1_threshold  -6.123    9.019 -114.252 168.278   1.000        False
+sufficient hotspot_random      30      0.0           A2_d3qn_dos - A0_d3qn  -6.182    5.431   -8.274   7.269   0.659        False
+sufficient hotspot_random      30      0.0          A0_d3qn - B1_threshold  34.999    7.831   88.126  19.717   0.000         True
+sufficient hotspot_random      30      0.0      A2_d3qn_dos - B1_threshold  28.817    8.891   72.561  22.387   0.000         True
+sufficient hotspot_random      30      0.0 B2_threshold_dos - B1_threshold  -7.627   13.947  -19.205  35.117   1.000        False
+sufficient     peak_fixed      30      0.0           A2_d3qn_dos - A0_d3qn  -7.216    5.470   -8.999   6.821   0.381        False
+sufficient     peak_fixed      30      0.0          A0_d3qn - B1_threshold  47.444    9.866  144.897  30.132   0.000         True
+sufficient     peak_fixed      30      0.0      A2_d3qn_dos - B1_threshold  40.228    9.446  122.858  28.849   0.000         True
+sufficient     peak_fixed      30      0.0 B2_threshold_dos - B1_threshold  -1.093   10.532   -3.339  32.164   1.000        False
+sufficient     stationary      30      0.0           A2_d3qn_dos - A0_d3qn  -5.342    4.656   -7.183   6.260   0.659        False
+sufficient     stationary      30      0.0          A0_d3qn - B1_threshold  33.856    6.934   83.562  17.114   0.000         True
+sufficient     stationary      30      0.0      A2_d3qn_dos - B1_threshold  28.514    8.953   70.378  22.097   0.000         True
+sufficient     stationary      30      0.0 B2_threshold_dos - B1_threshold  -0.721   13.335   -1.780  32.912   1.000        False

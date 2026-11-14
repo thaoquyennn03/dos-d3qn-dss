@@ -1,0 +1,24 @@
+excess_hotspot_random_A0_d3qn_c30_p0_s0 (278s)
+excess_hotspot_random_A0_d3qn_c30_p0_s1 (295s)
+excess_hotspot_random_A0_d3qn_c30_p0_s2 (270s)
+excess_hotspot_random_A2_d3qn_dos_c30_p0_s0 (298s)
+excess_hotspot_random_A2_d3qn_dos_c30_p0_s1 (275s)
+excess_hotspot_random_A2_d3qn_dos_c30_p0_s2 (294s)
+excess_hotspot_random_A4_d3qn_noise_c30_p0_s0 (269s)
+excess_hotspot_random_A4_d3qn_noise_c30_p0_s1 (272s)
+excess_hotspot_random_A4_d3qn_noise_c30_p0_s2 (287s)
+eval excess hotspot_random: 240 rows
+ level        pattern  n_comp  penalty           policy    net  net_ci  reject_pct  idle_min  seeds  days
+excess hotspot_random      30      0.0          A0_d3qn 211.76    5.56       69.97     64.30      3    20
+excess hotspot_random      30      0.0      A2_d3qn_dos 220.03    6.64       68.99     64.73      3    20
+excess hotspot_random      30      0.0    A4_d3qn_noise 218.15    3.40       67.60     63.68      3    20
+excess hotspot_random      30      0.0      B0_centroid  91.80    8.77        0.00     58.20      1    20
+excess hotspot_random      30      0.0     B1_threshold 237.56   11.99       87.55    134.60      1    20
+excess hotspot_random      30      0.0 B2_threshold_dos 241.46    8.89       85.42    123.00      1    20
+ level        pattern  n_comp  penalty                         compare    diff  diff_ci     pct  pct_ci  p_holm  significant
+excess hotspot_random      30      0.0           A2_d3qn_dos - A0_d3qn   8.267    6.759   3.904   3.192   0.135        False
+excess hotspot_random      30      0.0         A4_d3qn_noise - A0_d3qn   6.388    5.634   3.017   2.660   0.135        False
+excess hotspot_random      30      0.0     A2_d3qn_dos - A4_d3qn_noise   1.878    6.294   0.861   2.885   1.000        False
+excess hotspot_random      30      0.0          A0_d3qn - B1_threshold -25.802   11.493 -10.861   4.838   0.002         True
+excess hotspot_random      30      0.0      A2_d3qn_dos - B1_threshold -17.535   14.725  -7.381   6.198   0.135        False
+excess hotspot_random      30      0.0 B2_threshold_dos - B1_threshold   3.899   11.870   1.641   4.996   1.000        False
